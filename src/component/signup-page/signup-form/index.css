@@ -1,0 +1,68 @@
+/* SignUpForm.css */
+
+.sign-up-form-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 20px;
+  }
+  .firstName{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .lastName{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .email{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  .password{
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+  
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 83%;
+    padding: 15px;
+    border: 2px solid #E4857B;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-left: 15px;
+  }
+  
+  button[type="submit"] {
+    background-color: #E15456;
+    color: #fff;
+    padding: 15px 0px 15px 0px;
+    border: none;
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 20px 21px 0px 15px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #E15456;
+  }
+  
