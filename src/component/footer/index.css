@@ -1,0 +1,13 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E15456;
+    /* width: 430px; */
+    height: 65px;
+    cursor: pointer;
+}
+
+.footer-logo{
+    margin-top: 18px;
+}

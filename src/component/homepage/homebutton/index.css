@@ -1,0 +1,19 @@
+.Home-browser-button{
+    display: flex;
+}
+button[type="click"] {
+    background-color: #E15456;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 430px;
+    height: 35px;
+    line-height: 0px;
+    cursor: pointer;
+  }
+  
+  button[type="click"]:hover {
+    background-color: #E15456;
+  }

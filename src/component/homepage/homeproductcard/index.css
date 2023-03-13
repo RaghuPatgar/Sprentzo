@@ -1,0 +1,29 @@
+.home-product-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-product-card-block {
+    display: flex;
+    flex-direction: column;
+    width: 120px;   
+    height: 120px;
+    background:   #E8EAEC;
+    border-radius: 27px;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    /* margin-top: 40px; */
+}
+.product-image{
+    margin-top: 27px;
+}
+.product-title{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17px;
+    color:#45496A;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100px;
+}

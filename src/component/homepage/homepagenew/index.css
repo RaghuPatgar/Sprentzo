@@ -1,0 +1,26 @@
+.home-new-product-cards-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.home-new-product-card-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.Home-product-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 85px;
+    color:  #E15456;
+    font-style: 'bold';
+    margin-left: 15px
+}
+
+.new-product-image {
+    margin-top: 40px;
+    width: 254px;
+    height: 245px;
+    margin-left: 15px;
+}

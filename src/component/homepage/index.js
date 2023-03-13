@@ -1,23 +1,23 @@
-import React from "react";
-import './index.css';
-import sprentzo from "./logo.png";
+import HomePageHeader from '../homepage/homepageheader/index';
+import HomepageBrowserButton from '../homepage/homebutton/index';
+import HomePageImage from '../homepage/homepageimage/index';
+import HomeProductCard from '../homepage/homeproductcard/index';
+import HomeNewProduct from '../homepage/homepagenew/index';
+import HomeSimilarProduct from '../homepage/homesimilarproduct/index';
+import FooterPage from '../footer/index';
 
-var rootStyle = {
-    backgroundColor : '#E15456',
-    // color : 'white',
-    height : '100%'
-  
-  }
-
-function Sprentzologo() {
+function HomePage() {
     return (
-        <>
-        <div className="logo-container" style={rootStyle}>
-        <img src={sprentzo} alt="sprentzoimg" className="aa" />
-            
+        <div className='homepage-container'>
+            <HomePageHeader />
+            <HomepageBrowserButton />
+            <HomePageImage />
+            <HomeProductCard />
+            <HomeNewProduct />
+            <HomeSimilarProduct />
+            <FooterPage />
         </div>
-        </>
-      
     );
 }
-export default Sprentzologo;
+
+export default HomePage;
