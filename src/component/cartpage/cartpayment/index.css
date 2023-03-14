@@ -33,6 +33,7 @@
 
 .cart-payment-button{
     display: flex;
+    /* margin-bottom: 100px; */
 }
 
 button[type="checkout"] {

@@ -1,0 +1,23 @@
+.sports-option-title-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+.sports-option-title-block{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sports-option-text{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    align-items: center;
+    color:  #45496A;
+}
+
+.sports-option-text:hover {
+    border-bottom: 1px solid red;
+}

@@ -1,6 +1,7 @@
 import HomePageHeader from '../homepage/homepageheader/index';
 import HeaderSearchBar from '../searchpage/searchbar/index';
 import SearchList from '../searchlistpage/searchlist/index';
+import FooterPage from '../footer';
 
 
 function SearchListPage () {
@@ -9,6 +10,7 @@ function SearchListPage () {
             <HomePageHeader />
             <HeaderSearchBar />
             <SearchList />
+            <FooterPage />
         </div>
     );
 }

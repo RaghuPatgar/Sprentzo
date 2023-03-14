@@ -1,3 +1,4 @@
+import FooterPage from '../footer';
 import HomePageHeader from '../homepage/homepageheader/index';
 import HeaderSearchBar from '../searchpage/searchbar/index';
 import SearchProduct from '../searchpage/searchproduct/index';
@@ -9,6 +10,7 @@ function SearchBar () {
             <HomePageHeader />
             <HeaderSearchBar />
             <SearchProduct />
+            <FooterPage />
         </div>
     );
 }

@@ -6,7 +6,7 @@ import './index.css';
 function HomePageImage () {
     return (
         <div className="home-page-image-container">
-            <img src={homeimg} alt='homeimg' />
+            <img src={homeimg} alt='homeimg' width='100%' />
         </div>
 
     );

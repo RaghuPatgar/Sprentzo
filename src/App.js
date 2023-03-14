@@ -8,6 +8,7 @@ import SearchBar from './component/searchpage/index';
 import SearchListPage from './component/searchlistpage/index';
 import CartPage from './component/cartpage/index';
 import CartNewPage from './component/cartnewpage/index';
+import RelatedProduct from './component/relatedproduct';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
      {/* <SearchBar /> */}
      {/* <SearchListPage /> */}
      {/* <CartPage /> */}
-     <CartNewPage />
+     {/* <CartNewPage /> */}
+     <RelatedProduct />
     </div>
   );
 }

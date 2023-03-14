@@ -1,0 +1,30 @@
+.sports-option-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.sports-option-card-block {
+    display: flex;
+    flex-direction: column;
+    width: 60px;   
+    height: 60px;
+    background:   #E8EAEC;
+    border-radius: 13px;
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 70px;
+}
+.sports-option-image{
+    margin-top: 15px;
+}
+.sports-option-title{
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 9px;
+    color: #45496A;
+    margin-top: 8px;
+    margin-left: 11px;
+    width: 41px;
+}
