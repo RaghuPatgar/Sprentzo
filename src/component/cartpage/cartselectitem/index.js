@@ -1,9 +1,9 @@
 import React from "react";
 import './index.css';
-import football from '../cartselectitem/ftball.png';
-import plus from '../cartselectitem/plus.png';
-import minus from '../cartselectitem/minus.png';
-import gym from '../cartselectitem/gym.png';
+import football from '../cartselectitem/images/ftball.png';
+import plus from '../cartselectitem/images/plus.png';
+import minus from '../cartselectitem/images/minus.png';
+import gym from '../cartselectitem/images/gym.png';
 
 
 let CartProductData = [

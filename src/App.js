@@ -9,6 +9,7 @@ import SearchListPage from './component/searchlistpage/index';
 import CartPage from './component/cartpage/index';
 import CartNewPage from './component/cartnewpage/index';
 import RelatedProduct from './component/relatedproduct';
+import WishList from './component/wishlist';
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
      {/* <SearchListPage /> */}
      {/* <CartPage /> */}
      {/* <CartNewPage /> */}
-     <RelatedProduct />
+     {/* <RelatedProduct /> */}
+     <WishList />
     </div>
   );
 }
